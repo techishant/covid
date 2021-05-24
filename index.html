@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/fabebe5e1d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Corona Virus Tracker</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- header -->
+      <div class="header" id="header">
+        <header>
+          <ul>
+            <li><a href="https://techishant.github.io/myweb/">Home</a></li>
+            <li><a href="#safMesDiv">Safety Measures</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li>
+              <a href="" onclick="window.reload()"
+                ><i class="fas fas fa-sync-alt"></i
+              ></a>
+            </li>
+          </ul>
+        </header>
+      </div>
+
+      <!-- topPart -->
+
+      <div class="topPart">
+        <div class="lhs">
+          <i class="fas fas fa-viruses frontLogo"></i>
+        </div>
+        <div class="rhs">
+          <h1>Covid-19 Tracker | TECHISHANT</h1>
+          <div class="introTracker">
+            <ul>
+              <li class="introTrackerConf">
+                <h4>Confirmed</h4>
+                <span class="introTrackerDeltaVal" id="introTrackerDeltaValConf"
+                  >Load..</span
+                >
+                <span class="introTrackerDataVal" id="introTrackerDataValConf"
+                  >Load..</span
+                >
+              </li>
+              <li class="introTrackerActive">
+                <h4>Active</h4>
+                <span class="introTrackerDeltaVal" id="introTrackerDeltaValConf"
+                  >Load..</span
+                >
+                <span class="introTrackerDataVal" id="introTrackerDataValActive"
+                  >Load..</span
+                >
+              </li>
+              <li class="introTrackerRecov">
+                <h4>Recovered</h4>
+                <span
+                  class="introTrackerDeltaVal"
+                  id="introTrackerDeltaValRecov"
+                  >Load..</span
+                >
+                <span class="introTrackerDataVal" id="introTrackerDataValRecov"
+                  >Load..</span
+                >
+              </li>
+              <li class="introTrackerDeath">
+                <h4>Deaths</h4>
+                <span
+                  class="introTrackerDeltaVal"
+                  id="introTrackerDeltaValDeaths"
+                  >Load..</span
+                >
+                <span class="introTrackerDataVal" id="introTrackerDataValDeaths"
+                  >Load..</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="chevron">
+          <a href="#covidTable">
+            <i class="fas fas fa-chevron-down up"></i>
+            <i class="fas fas fa-chevron-down down"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="mainDiv">
+        <table id="covidTable"></table>
+      </div>
+
+      <div class="safMesDiv" id="safMesDiv">
+        <ul>
+          <h3>
+            What preventative measures can I take against the coronavirus
+            disease?
+          </h3>
+          <li>
+            Wash your hands regularly with soap and water, or clean them with
+            alcohol-based hand rub.
+          </li>
+          <li>
+            Maintain at least 1 metre distance between you and people coughing
+            or sneezing.
+          </li>
+          <li>Avoid touching your face.</li>
+          <li>Cover your mouth and nose when coughing or sneezing.</li>
+          <li>Stay home if you feel unwell.</li>
+          <li>
+            Refrain from smoking and other activities that weaken the lungs.
+          </li>
+          <li>
+            Practice physical distancing by avoiding unnecessary travel and
+            staying away from large groups of people.
+          </li>
+        </ul>
+        <i class="fas fas fa-home"> Stay Home <br />Stay Safe !</i>
+      </div>
+
+      <!-- footer -->
+
+      <footer class="footer">
+        <div class="footer_container">
+          <h1 class="footer_app"><q>TECHISHANT</q> - Built by Ishant Sharma</h1>
+          <div class="logo_container">
+            <span class="footer_icons"><i class="fa fa-html5"></i></span>
+            <span class="footer_icons"><i class="fa fa-css3"></i></span>
+            <span class="footer_icons"><i class="fab fa-js"></i></span>
+            <span class="footer_icons"><i class="fab fa-github"></i></span>
+            <span class="footer_icons"
+              ><i class="fab fa-font-awesome"></i
+            ></span>
+            <span class="footer_icons"><i class="fab fa-bootstrap"></i></span>
+            <span class="footer_icons"><i class="fab fa-unsplash"></i></span>
+          </div>
+          <h1>Published on Github <i class="fab fa-github"></i></h1>
+          <figure class="footer_official_logo_fig">
+            <img
+              src="https://techishant.github.io/myweb/IMAGES/favicon.ico"
+              alt="logo"
+            />
+          </figure>
+          <span class="bottom_footer_caption"
+            ><a href="https://techishant.github.io/myewb">copyright@2020</a> |
+            <a href="https://techishant.github.io/myweb/README.md"
+              >privacypolicy@2020</a
+            ></span
+          >
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
