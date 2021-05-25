@@ -116,7 +116,7 @@ html {
   cursor: pointer;
   list-style: none;
   height: 120px;
-  width: 80px;
+  /* width: 80px; */
   background: #fff;
   width: 100px;
   padding: 5px;
@@ -501,6 +501,26 @@ footer .footer_official_logo_fig img {
     height: 2rem;
     width: 2rem;
   }
+
+  footer .footer_container h1{
+    font-size: 25px;
+  }
+
+  .topPart .lhs .frontLogo {
+    font-size: 140px;
+  }
+
+  .introTracker ul li{
+    width: 80px;
+    height: 100px;
+    font-size: 15px;
+  }
+  .introTracker ul li h4{
+    font-size: 14px;
+  }
+  .topPart .rhs h1{
+    font-size: 20px;
+  }
 }
 
 #myInputState{
@@ -515,3 +535,20 @@ footer .footer_official_logo_fig img {
   width: 100%;
   background: #fff;
 }
+
+.safMesDiv ul h3{
+  font-size: 15px;
+}
+
+.safMesDiv ul li{
+  font-size: 15px;
+}
+
+.safMesDiv{
+  padding: 10px 10px 10px 20px;
+}
+
+.safMesDiv ul li{
+  list-style: decimal;
+}
+
