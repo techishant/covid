@@ -272,9 +272,11 @@ html {
 
 #covidTable {
   background: #fff;
-  width: 100%;
+  display: block;
+  max-width: 98.6vw;
+  overflow: auto;
   /* row-gap: 0; */
-  min-width: 100vh;
+  min-width: 1vw;
 }
 
 #covidTable td:nth-child(1) {
@@ -499,4 +501,14 @@ footer .footer_official_logo_fig img {
     height: 2rem;
     width: 2rem;
   }
+}
+
+
+
+
+.mainDiv{
+  display: grid;
+  place-items: center;
+  width: 100%;
+  background: #fff;
 }
