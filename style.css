@@ -503,7 +503,10 @@ footer .footer_official_logo_fig img {
   }
 }
 
-
+#myInputState{
+  height: 30px;
+  width: fit-content;
+}
 
 
 .mainDiv{
