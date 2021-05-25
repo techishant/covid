@@ -502,6 +502,22 @@ footer .footer_official_logo_fig img {
     width: 2rem;
   }
 
+  .safMesDiv ul h3{
+    font-size: 15px;
+  }
+  
+  .safMesDiv ul li{
+    font-size: 15px;
+  }
+  
+  .safMesDiv{
+    padding: 10px 10px 10px 20px;
+  }
+  
+  .safMesDiv ul li{
+    list-style: decimal;
+  }
+
   footer .footer_container h1{
     font-size: 25px;
   }
@@ -526,6 +542,7 @@ footer .footer_official_logo_fig img {
 #myInputState{
   height: 30px;
   width: fit-content;
+  outline: none;
 }
 
 
@@ -536,19 +553,5 @@ footer .footer_official_logo_fig img {
   background: #fff;
 }
 
-.safMesDiv ul h3{
-  font-size: 15px;
-}
 
-.safMesDiv ul li{
-  font-size: 15px;
-}
-
-.safMesDiv{
-  padding: 10px 10px 10px 20px;
-}
-
-.safMesDiv ul li{
-  list-style: decimal;
-}
 
