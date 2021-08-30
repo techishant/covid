@@ -26,7 +26,7 @@ function headerScrollFnc() {
 
 // scroll function close
 
-// fetch api | api => https://api.covid19india.org/data.json
+// fetch api | api => https://data.covid19india.org/data.json
 var introTrackerDataValConf = document.getElementById(
   "introTrackerDataValConf"
 );
@@ -56,7 +56,7 @@ async function fetchingData() {
     method: "get",
     redirect: "follow",
   };
-  await fetch("https://api.covid19india.org/data.json", requestOptions)
+  await fetch("https://data.covid19india.org/data.json", requestOptions)
     .then((response) => response.text())
     .then((result) => (Jadata = JSON.parse(result))) //data = JSON.parse(result))
     .catch((error) => console.log("error", error));
