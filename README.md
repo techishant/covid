@@ -11,7 +11,7 @@ This website is made from HTML CSS and JavaScript. This keeps a live track of co
 
 ### API used here
 
-- [https://api.covid19india.org/data.json](https://api.covid19india.org/data.json)
+- [https://data.covid19india.org/data.json](https://api.covid19india.org/data.json)
 
 The api returns value in JSON format which is parsed and displayed here.
 
